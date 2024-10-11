@@ -1,4 +1,4 @@
-program hello
+program cuda_test
     integer :: array0(5)
     integer :: sum, j, i
 
@@ -10,4 +10,4 @@ program hello
         sum = sum + i
     end do
     print *, sum
-end program hello
+end program cuda_test
